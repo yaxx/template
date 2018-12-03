@@ -1,0 +1,220 @@
+.col.logincol {
+  margin:0px;
+  padding:0px;
+  width:100%;
+}
+
+.loginwrap {
+  width:100%;
+  height:100%;
+  background:white;
+  position:relative;
+}
+
+.split {
+  height:100%;
+  position:absolute;
+  display:inline-block;
+  background:whitesmoke;
+  width:60%;
+}
+
+.accountform {
+  width:27%;
+  position:absolute;
+  left:67%;
+  height:70%;
+  top:30%;
+}
+
+.headericon.clock {
+  font-size:17px;
+  bottom:-2px;
+  color:rgb(181,179,179);
+}
+
+.headericon.in {
+  font-size:17px;
+  bottom:-2px;
+  color:#fff500;
+}
+
+.headericon.gone {
+  font-size:17px;
+  bottom:-2px;
+  color:red;
+}
+
+.floter {
+  width:30px;
+  height:30px;
+  border-radius:50%;
+  border:1px solid whitesmoke;
+  position:absolute;
+  bottom:5%;
+  left:80%;
+  cursor:pointer;
+}
+
+.flotericon {
+  position:relative;
+  left:7px;
+  font-size:13px;
+  color:blue;
+}
+
+.flotericon.consulticon {
+  font-size:17px;
+}
+
+.timeline.condition {
+  background:white;
+  border-radius:0px;
+}
+
+.timetaken.lastdept {
+  font-size:11px;
+  font-weight:normal;
+  text-align:right;
+  width:65%;
+  left:33%;
+  color:rgb(191,190,190);
+  padding-left:3px;
+}
+
+.priscription.drug {
+}
+
+.card-body.orderbody {
+  border-left:0px;
+  padding-top:3px;
+}
+
+.carditem.priscriptioncontainer.order {
+  border-left:2px solid blue;
+  margin-bottom:0px;
+  padding-top:4px;
+}
+
+.carditem.priscriptioncontainer.wardorder {
+  padding-left:0px;
+}
+
+.timelinedate.drugtimeline {
+}
+
+.timeline.condition.drugtimeline {
+  top:4px;
+}
+
+.itemlist.clientinfo {
+  list-style:none;
+  padding-left:0px;
+  margin:auto;
+  /*padding-right:49px;*/
+}
+
+.timetaken.lastdept.clientdata {
+  font-size:12px;
+}
+
+.icon.ion-edit.editicon.editclient {
+  left:102%;
+}
+
+.editicon.editclient {
+  font-size:large;
+  position:absolute;
+  cursor:pointer;
+}
+
+.icon.ion-ios-plus-empty.editicon.editclient.addinfo {
+  left:102%;
+  bottom:-26%;
+  cursor:pointer;
+  font-weight:bold;
+}
+
+.formGroup {
+  display:inline-block;
+  width:49.5%;
+  margin-bottom:5px;
+}
+
+.formGroup.newdept {
+  width:100%;
+  padding-left:25%;
+  padding-right:25%;
+}
+
+.card.card-secondary.maincard {
+  max-height:400px;
+  min-height:400px;
+}
+
+.headeredit {
+  left:98%;
+  position:absolute;
+  /*font-size:small;*/
+}
+
+.home.wardmenu {
+  top:59%;
+}
+
+.material-icons.homeicon.wardicon {
+  text-align:center;
+  position:relative;
+  font-size:27px;
+  right:5px;
+}
+
+.card-body.logbody {
+  margin-left:0px;
+  padding-top:40%;
+  border-left:0px;
+}
+
+.card.logincard {
+  height:100%;
+  width:35%;
+  /*left:100%;*/
+  position:absolute;
+  right:1px;
+  border:none;
+  margin:0px;
+  border-radius:0px;
+}
+
+.login {
+  background:background-color: rgb(243, 248, 247);
+  background-color:rgb(243, 248, 247);
+}
+
+.placeholder {
+  width:100%;
+  text-align:center;
+  align-self:center;
+  margin:0px;
+  position:absolute;
+  top:45%;
+  color:whitesmoke;
+}
+
+.timetaken.dischargedon {
+  color:lightgrey;
+}
+
+.message-send .msg-text {
+}
+
+.formGroup.newdept.message-group {
+  width:100%;
+}
+
+.icon.ion-image.attachment {
+  font-size:27px;
+  position:absolute;
+  /*color:lightgrey;*/
+}
+

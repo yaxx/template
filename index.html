@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>medsoft2</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/fonts/material-icons.min.css">
+    <link rel="stylesheet" href="assets/css/account.css">
+    <link rel="stylesheet" href="assets/css/dept.css">
+    <link rel="stylesheet" href="assets/css/history.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
+    <link rel="stylesheet" href="assets/css/messages.css">
+    <link rel="stylesheet" href="assets/css/mynav-1.css">
+    <link rel="stylesheet" href="assets/css/mynav.css">
+    <link rel="stylesheet" href="assets/css/orders.css">
+    <link rel="stylesheet" href="assets/css/profile.css">
+    <link rel="stylesheet" href="assets/css/reg.css">
+    <link rel="stylesheet" href="assets/css/sidenav-1.css">
+    <link rel="stylesheet" href="assets/css/sidenav.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/ward.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-md navigation-clean-search" style="padding:0px">
+        <div class="container"><a class="navbar-brand" href="#"><em>MS</em></a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse"
+                id="navcol-1">
+                <ul class="nav navbar-nav"></ul>
+                <form class="form-inline mr-auto searchform" target="_self">
+                    <div class="form-group"><label for="search-field"><i class="icon ion-ios-search searchicon" title="Search"></i></label><input class="form-control search-field" type="search" name="search" id="search-field" placeholder="Search Patient"></div>
+                    <p class="filter">Sort by: Recently added</p><i class="icon ion-ios-arrow-down arrow"></i><i class="icon ion-ios-chatboxes-outline arrow buble" title="Messages"></i><i class="icon ion-android-notifications-none arrow buble note" title="Notifications"></i>
+                    <div
+                        class="media midia profile">
+                        <div id="dp1" class="dp"></div><img class="img-fluid d-none mr-3" src="assets/img/model.jpg">
+                        <div class="media-body">
+                            <h6 class="username profilename">Dr. Aisha Bello</h6>
+                            <p class="userfb contacts profiletitle">Cadiologist</p>
+                        </div>
+            </div>
+            </form>
+        </div>
+        </div>
+    </nav>
+    <div class="sidenav"><a href="#" class="home homemenu" title="Menu"><span class="homespan"><i class="material-icons homeicon">sort</i></span></a><a href="#" class="home" title="Home"><span class="homespan"><i class="icon ion-ios-home-outline homeicon"></i></span></a>
+        <a
+            href="admin.html" class="home dashboard" title="Dashboard"><span class="homespan"><i class="icon ion-android-apps homeicon"></i></span></a><a href="consultation.html" class="home patienmenu" title="Patients"><span class="homespan"><i class="icon ion-ios-people-outline homeicon"></i></span></a><a href="appointment.html"
+                class="home reviewmenu" title="Appointments"><span class="homespan"><i class="icon ion-ios-calendar-outline homeicon"></i></span></a><a href="appointment.html" class="home wardmenu" title="Ward"><span class="homespan"><i class="material-icons homeicon wardicon">airline_seat_individual_suite</i></span></a>
+            <a
+                href="#" class="home settings" title="Settings"><span class="homespan"><i class="icon ion-ios-gear-outline homeicon"></i></span></a>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div class="card card-secondary maincard" data-aos="slide-right" data-aos-duration="900" data-aos-once="true">
+                    <div class="card-header profileheader">
+                        <div class="timeline lastdoc priscriber headerdp"></div>
+                        <p class="dept displayname">Amina Sulaiman<span class="predata editicon"><i class="icon ion-ios-checkmark-outline headericon"></i><i class="icon ion-android-more-vertical headericon moreicon"></i></span></p>
+                        <p class="dept displayname subinfo">Feb 09, 2018</p>
+                    </div>
+                    <div class="card-body regbody">
+                        <div class="carditem">
+                            <h6 class="dept firstheader">MARTERNITY<span class="timetaken dischargedon">05/10/2018 02:30pm</span></h6>
+                            <p class="dept previnfo">Bed Number<span class="predata">&nbsp;02</span></p>
+                            <div class="timeline condition">
+                                <p class="timelinedate">05</p>
+                                <p class="timelinedate month">FEB</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div class="card card-secondary maincard">
+                    <div class="card-body regbody">
+                        <div class="carditem">
+                            <div class="timeline condition">
+                                <p class="timelinedate">05</p>
+                                <p class="timelinedate month">FEB</p>
+                            </div>
+                            <h6 class="dept firstheader">MALARIA FEVER<span class="timetaken dischargedon">05/10/2018 02:30pm</span></h6>
+                            <p class="dept previnfo">Diagnosed By:<span class="timetaken lastdept docname">&nbsp;Dr A. Olorokoba</span></p>
+                        </div>
+                        <p class="placeholder">No record yet</p>
+                    </div>
+                    <div class="floter"><i class="icon ion-person-stalker flotericon"></i></div>
+                </div>
+            </div>
+            <div class="col col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div class="card card-secondary maincard">
+                    <div class="card-body">
+                        <div class="carditem">
+                            <div class="timeline condition"><i class="icon ion-ios-person-outline deticon"></i></div>
+                            <h6 class="dept firstheader">PERSONAL INFO</h6>
+                            <p class="dept previnfo">Age:<span class="predata">&nbsp;25</span></p>
+                            <p class="dept previnfo">Gender:<span class="predata">&nbsp;Female</span></p>
+                            <p class="dept previnfo">Blood Group:<span class="predata">&nbsp;O+</span></p>
+                            <p class="dept previnfo">Marital Staus:<span class="predata">&nbsp;Single</span></p>
+                            <p class="dept previnfo">Religion:<span class="predata">&nbsp;Islam</span></p>
+                            <p class="dept previnfo">Tribe:<span class="predata">&nbsp;Hausa</span></p>
+                            <p class="dept previnfo">Occupation:<span class="predata">&nbsp;Enterprenure</span></p>
+                        </div>
+                        <div class="carditem">
+                            <div class="timeline condition"><i class="icon ion-ios-location-outline deticon"></i></div>
+                            <h6 class="dept firstheader">CONTACT</h6>
+                            <p class="dept previnfo">State:<span class="predata">&nbsp;Bauchi</span></p>
+                            <p class="dept previnfo">LGA:<span class="predata">&nbsp;Azare</span></p>
+                            <p class="dept previnfo">Mobile:<span class="predata">&nbsp;08037894457</span></p>
+                            <p class="dept previnfo">Email:<span class="predata">&nbsp;amina@gamil.com</span></p>
+                            <p class="dept previnfo">Address:<span class="predata">&nbsp;No. 25 Kofar wanbai, Azare</span></p>
+                        </div>
+                        <div class="carditem">
+                            <div class="timeline condition"><i class="icon ion-ios-pulse deticon"></i></div>
+                            <h6 class="dept firstheader">EMERGENCY</h6>
+                            <p class="dept previnfo">Name:<span class="predata">&nbsp;Sani Mohammed</span></p>
+                            <p class="dept previnfo">Relationship:<span class="predata">&nbsp;Parent</span></p>
+                            <p class="dept previnfo">Mobile:<span class="predata">&nbsp;08037894457</span></p>
+                            <p class="dept previnfo">Email:<span class="predata">&nbsp;amina@gamil.com</span></p>
+                            <p class="dept previnfo">Address:<span class="predata">&nbsp;No. 25 Kofar wanbai, Azare</span></p>
+                        </div>
+                    </div>
+                    <div class="floter"><i class="icon ion-edit flotericon"></i></div>
+                </div>
+            </div>
+            <div class="col col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div class="card card-secondary maincard">
+                    <div class="card-header profileheader">
+                        <div class="timeline lastdoc priscriber headerdp"></div>
+                        <p class="dept displayname">Amina Sulaiman<span class="predata editicon"><i class="icon ion-ios-close-outline headericon gone"></i><i class="icon ion-android-more-vertical headericon moreicon"></i></span></p>
+                        <p class="dept displayname subinfo">Feb 09, 2018</p>
+                    </div>
+                    <div class="card-body orderbody">
+                        <div class="carditem priscriptioncontainer order">
+                            <div class="timeline condition drugtimeline">
+                                <p class="timelinedate">08</p>
+                                <p class="timelinedate month">FEB</p>
+                            </div>
+                            <div class="priscription drug">
+                                <h6 class="dept">Paracetamol&nbsp;<span class="predata prescriptionicon"><input type="checkbox"></span><span class="predata editicon"><i class="icon ion-edit predata editicon"></i></span><span class="predata">200mg</span></h6>
+                                <h6 class="dept previnfo">Dosage&nbsp;<span class="predata">dos | 10 days</span></h6>
+                                <h6 class="dept previnfo">Price&nbsp;<span class="predata priceval">150</span></h6>
+                            </div>
+                        </div>
+                        <div class="carditem priscriptioncontainer order">
+                            <div class="timeline condition drugtimeline">
+                                <p class="timelinedate">05</p>
+                                <p class="timelinedate month">FEB</p>
+                            </div>
+                            <div class="priscription drug">
+                                <h6 class="dept">Amoxiline&nbsp;<span class="predata prescriptionicon"><input type="checkbox"></span><span class="predata editicon"><i class="icon ion-edit predata editicon"></i></span><span class="predata">200mg</span></h6>
+                                <h6 class="dept previnfo">Dosage&nbsp;<span class="predata">dos | 10 days</span></h6>
+                                <h6 class="dept previnfo">Price&nbsp;<span class="predata priceval">300</span></h6>
+                            </div>
+                            <div class="priscription drug">
+                                <h6 class="dept">Chloroquine &nbsp;<span class="predata prescriptionicon"><input type="checkbox"></span><span class="predata editicon"><i class="icon ion-edit predata editicon"></i></span><span class="predata">200ml</span></h6>
+                                <h6 class="dept previnfo">Dosage&nbsp;<span class="predata">dos | 10 days</span></h6>
+                                <h6 class="dept previnfo">Price&nbsp;<span class="predata priceval">200</span></h6>
+                            </div>
+                            <div class="priscription drug">
+                                <h6 class="dept">Destrosaline<span class="predata prescriptionicon"><input type="checkbox"></span><span class="predata editicon"><i class="icon ion-edit predata editicon"></i></span><span class="predata">1000ml</span></h6>
+                                <h6 class="dept previnfo">Dosage&nbsp;<span class="predata">dos | 10 days</span></h6>
+                                <h6 class="dept previnfo">Price&nbsp;<span class="predata priceval">500</span></h6>
+                            </div>
+                        </div>
+                        <div class="carditem priscriptioncontainer order">
+                            <div class="timeline condition drugtimeline">
+                                <p class="timelinedate">25</p>
+                                <p class="timelinedate month">SEP</p>
+                            </div>
+                            <div class="priscription drug">
+                                <h6 class="dept"><span class="predata prescriptionicon"><input type="checkbox"></span><span class="predata editicon"><i class="icon ion-edit predata editicon"></i></span>Peritone&nbsp;<span class="predata">200mg</span></h6>
+                                <h6 class="dept previnfo">Dosage&nbsp;<span class="predata">dos | 10 days</span></h6>
+                                <h6 class="dept previnfo">Price&nbsp;<span class="predata priceval">150</span></h6>
+                            </div>
+                            <div class="priscription drug">
+                                <h6 class="dept">Amathem&nbsp;<span class="predata prescriptionicon"><input type="checkbox"></span><span class="predata editicon"><i class="icon ion-edit predata editicon"></i></span><span class="predata">200mg</span></h6>
+                                <h6 class="dept previnfo">Dosage&nbsp;<span class="predata">dos | 10 days</span></h6>
+                                <h6 class="dept previnfo">Price&nbsp;<span class="predata priceval">350</span></h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div class="card card-secondary maincard">
+                    <div class="card-header profileheader">
+                        <div class="timeline lastdoc priscriber headerdp"></div>
+                        <p class="dept displayname">Amina Sulaiman<span class="predata editicon"><i class="icon ion-ios-help-outline headericon in"></i><i class="icon ion-android-more-vertical headericon moreicon"></i></span></p>
+                        <p class="dept displayname subinfo">Feb 09, 2018</p>
+                    </div>
+                    <div class="card-body orderbody">
+                        <div class="carditem priscriptioncontainer order">
+                            <div class="timeline condition drugtimeline">
+                                <p class="timelinedate">10</p>
+                                <p class="timelinedate month">FEB</p>
+                            </div>
+                            <div class="priscription drug">
+                                <h6 class="dept">Paracetamol&nbsp;<span class="predata prescriptionicon"><input type="checkbox"></span><span class="predata editicon"></span><span class="predata">200mg</span></h6>
+                                <h6 class="dept priscriptiontime">&nbsp;10:05am<span class="timetaken">05/10/2018 05:30pm</span></h6>
+                            </div>
+                            <div class="priscription drug">
+                                <h6 class="dept">Destrosaline&nbsp;<span class="predata prescriptionicon"><input type="checkbox"></span><span class="predata editicon"></span><span class="predata">1000ml</span></h6>
+                                <h6 class="dept priscriptiontime">&nbsp;10:30am<span class="timetaken">05/10/2018 05:30pm</span></h6>
+                            </div>
+                            <div class="priscription drug">
+                                <h6 class="dept">Chloroquine&nbsp;<span class="predata prescriptionicon"><input type="checkbox"></span><span class="predata editicon"></span><span class="predata">200ml</span></h6>
+                                <h6 class="dept priscriptiontime">&nbsp;10:30am<span class="timetaken">05/10/2018 05:30pm</span></h6>
+                            </div>
+                        </div>
+                        <div class="carditem priscriptioncontainer order">
+                            <div class="timeline condition drugtimeline">
+                                <p class="timelinedate">05</p>
+                                <p class="timelinedate month">FEB</p>
+                            </div>
+                            <div class="priscription drug"></div>
+                            <div class="priscription drug">
+                                <h6 class="dept">Perition&nbsp;<span class="predata prescriptionicon"><input type="checkbox"></span><span class="predata editicon"></span><span class="predata">100mg</span></h6>
+                                <h6 class="dept priscriptiontime">&nbsp;10:30am<span class="timetaken">05/10/2018 05:30pm</span></h6>
+                            </div>
+                            <div class="priscription drug">
+                                <h6 class="dept">Chloroquine&nbsp;<span class="predata prescriptionicon"><input type="checkbox"></span><span class="predata editicon"></span><span class="predata">200ml</span></h6>
+                                <h6 class="dept priscriptiontime">&nbsp;10:30am<span class="timetaken">05/10/2018 05:30pm</span></h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div class="card card-secondary maincard">
+                    <div class="card-header profileheader">
+                        <div class="timeline lastdoc priscriber headerdp"></div>
+                        <p class="dept displayname">Amina Sulaiman<span class="predata editicon"><i class="icon ion-ios-clock-outline headericon clock"></i><i class="icon ion-android-more-vertical headericon moreicon"></i></span></p>
+                        <p class="dept displayname subinfo">Feb 09, 2018</p>
+                    </div>
+                    <div class="card-body orderbody">
+                        <div class="carditem priscriptioncontainer order">
+                            <div class="timeline condition drugtimeline">
+                                <p class="timelinedate">10</p>
+                                <p class="timelinedate month">FEB</p>
+                            </div>
+                            <div class="priscription drug">
+                                <h6 class="dept">Paracetamol&nbsp;<span class="predata prescriptionicon"></span><span class="predata editicon"></span><span class="predata">200mg<i class="icon ion-ios-play-outline editicon continue"></i></span></h6>
+                                <h6 class="dept priscriptiontime">&nbsp;10:05am<span class="timetaken">05/10/2018 05:30pm</span></h6>
+                            </div>
+                            <div class="priscription drug">
+                                <h6 class="dept">Destrosaline&nbsp;<span class="predata prescriptionicon"></span><span class="predata editicon"></span><span class="predata">1000ml</span><i class="icon ion-ios-pause-outline editicon continue"></i></h6>
+                                <h6 class="dept priscriptiontime">&nbsp;10:30am<span class="timetaken">05/10/2018 05:30pm</span></h6>
+                            </div>
+                            <div class="priscription drug">
+                                <h6 class="dept">Chloroquine&nbsp;<span class="predata prescriptionicon"></span><span class="predata editicon"></span><span class="predata">200ml</span><i class="icon ion-ios-play-outline editicon continue"></i></h6>
+                                <h6 class="dept priscriptiontime">&nbsp;10:30am<span class="timetaken">05/10/2018 05:30pm</span></h6>
+                            </div>
+                        </div>
+                        <div class="carditem priscriptioncontainer order">
+                            <div class="timeline condition drugtimeline">
+                                <p class="timelinedate">05</p>
+                                <p class="timelinedate month">FEB</p>
+                            </div>
+                            <div class="priscription drug"></div>
+                            <div class="priscription drug">
+                                <h6 class="dept">Senamen&nbsp;<span class="predata prescriptionicon"></span><span class="predata editicon"></span><span class="predata">200ml</span><i class="icon ion-ios-pause-outline editicon continue"></i></h6>
+                                <h6 class="dept priscriptiontime">&nbsp;10:30am<span class="timetaken">05/10/2018 05:30pm</span></h6>
+                            </div>
+                        </div>
+                        <div class="carditem priscriptioncontainer order">
+                            <div class="timeline condition drugtimeline">
+                                <p class="timelinedate">05</p>
+                                <p class="timelinedate month">FEB</p>
+                            </div>
+                            <div class="priscription drug">
+                                <h6 class="dept">Athem&nbsp;<span class="predata prescriptionicon"></span><span class="predata editicon"></span><span class="predata">200ml</span><i class="icon ion-ios-play-outline editicon continue"></i></h6>
+                                <h6 class="dept priscriptiontime">&nbsp;10:30am<span class="timetaken">05/10/2018 05:30pm</span></h6>
+                            </div>
+                            <div class="priscription drug">
+                                <h6 class="dept">Chloroquine&nbsp;<span class="predata prescriptionicon"></span><span class="predata editicon"></span><span class="predata">200ml</span><i class="icon ion-ios-pause-outline editicon continue"></i></h6>
+                                <h6 class="dept priscriptiontime">&nbsp;10:30am<span class="timetaken">05/10/2018 05:30pm</span></h6>
+                            </div>
+                            <div class="priscription drug">
+                                <h6 class="dept">Chloroquine&nbsp;<span class="predata prescriptionicon"></span><span class="predata editicon"></span><span class="predata">200ml</span><i class="icon ion-ios-pause-outline editicon continue"></i></h6>
+                                <h6 class="dept priscriptiontime">&nbsp;10:30am<span class="timetaken">05/10/2018 05:30pm</span></h6>
+                            </div>
+                            <div class="priscription drug">
+                                <h6 class="dept">Chloroquine&nbsp;<span class="predata prescriptionicon"></span><span class="predata editicon"></span><span class="predata">200ml</span><i class="icon ion-ios-pause-outline editicon continue"></i></h6>
+                                <h6 class="dept priscriptiontime">&nbsp;10:30am<span class="timetaken">05/10/2018 05:30pm</span></h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-animation.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+</body>
+
+</html>
