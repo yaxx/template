@@ -212,9 +212,52 @@
   width:100%;
 }
 
-.icon.ion-image.attachment {
-  font-size:27px;
-  position:absolute;
-  /*color:lightgrey;*/
+.card.card-secondary.maincard.halfcard.halfcard-right {
+  left:8px;
+  border-left:1px solid rgba(0,0,0,.125);
+  border-top-left-radius:4px;
+}
+
+.card.card-secondary.historycard.leftcard.deathinfo {
+  max-height:200px;
+}
+
+.card.card-secondary.historycard.rightcard.conditions {
+  min-height:300px;
+  max-height:300px;
+}
+
+.card.scan-thumnail {
+  width:30%;
+  height:50px;
+  display:inline-block;
+  margin:0px;
+  border-color:white;
+  margin-bottom:0px;
+  margin-right:0px;
+  margin-left:0px;
+  border-collapse:collapse;
+}
+
+.carditem.scan-items {
+  margin-bottom:0px;
+  padding-top:5px;
+}
+
+.dept.file-name {
+  margin-bottom:5px;
+}
+
+.image-link {
+  height:100%;
+  position:relative;
+  display:block;
+}
+
+.predata.scan-department {
+  text-align:right;
+  left:6%;
+  position:relative;
+  width:43%;
 }
 
