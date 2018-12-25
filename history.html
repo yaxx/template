@@ -22,12 +22,40 @@
     <link rel="stylesheet" href="assets/css/sidenav-1.css">
     <link rel="stylesheet" href="assets/css/sidenav.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/untitled.css">
     <link rel="stylesheet" href="assets/css/ward.css">
 </head>
 
 <body>
-    <div class="container">
-        <div class="row">
+    <nav class="navbar navbar-light navbar-expand-md navigation-clean-search" style="padding:0px">
+        <div class="container"><a class="navbar-brand" href="#"><em>MS</em></a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse"
+                id="navcol-1">
+                <ul class="nav navbar-nav"></ul>
+                <form class="form-inline mr-auto searchform" target="_self">
+                    <div class="form-group"><label for="search-field"><i class="icon ion-ios-search searchicon" title="Search"></i></label><input class="form-control search-field" type="search" name="search" id="search-field" placeholder="Search Patient"></div>
+                    <p class="filter">Sort by: Recently added</p><i class="icon ion-ios-arrow-down arrow"></i><i class="icon ion-ios-chatboxes-outline arrow buble" title="Messages"></i><i class="icon ion-android-notifications-none arrow buble note" title="Notifications"></i>
+                    <div
+                        class="media midia profile">
+                        <div id="dp1" class="dp"></div><img class="img-fluid d-none mr-3" src="assets/img/model.jpg">
+                        <div class="media-body">
+                            <h6 class="username profilename">Dr. Aisha Bello</h6>
+                            <p class="userfb contacts profiletitle">Cadiologist</p>
+                        </div>
+            </div>
+            </form>
+        </div>
+        </div>
+    </nav>
+    <div class="sidenav"><a href="#" class="home homemenu" title="Menu"><span class="homespan"><i class="material-icons homeicon">sort</i></span></a><a href="#" class="home" title="Home"><span class="homespan"><i class="icon ion-ios-home-outline homeicon"></i></span></a>
+        <a
+            href="admin.html" class="home dashboard" title="Dashboard"><span class="homespan"><i class="icon ion-android-apps homeicon"></i></span></a><a href="consultation.html" class="home patienmenu" title="Patients"><span class="homespan"><i class="icon ion-ios-people-outline homeicon"></i></span></a><a href="appointment.html"
+                class="home reviewmenu" title="Appointments"><span class="homespan"><i class="icon ion-ios-calendar-outline homeicon"></i></span></a><a href="appointment.html" class="home wardmenu" title="Ward"><span class="homespan"><i class="material-icons homeicon wardicon">airline_seat_individual_suite</i></span></a>
+            <a
+                href="#" class="home settings" title="Settings"><span class="homespan"><i class="icon ion-ios-gear-outline homeicon"></i></span></a>
+    </div>
+    <div class="container history-container">
+        <div class="row history-row">
             <div class="col col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
                 <div class="card-colums leftcolumn">
                     <div class="card card-secondary historycard leftcard">
@@ -119,15 +147,10 @@
                             <div class="carditem noteitem writeup">
                                 <div class="timeline noter"></div>
                                 <h1 class="dept previnfo noterinfo">Dr. Aisha Usman&nbsp;<span class="predata notetime">20/20/2018 10:50am</span></h1>
-                                <p>This work is subject to copyright. All rights are reserved by the Publisher, whether the whole or part of pecifically the rights of translation, reprinting<br><br></p>
+                                <p class="note-item">This work is subject to copyright. All rights are the bigs reserved by the Publisher, kdkkdk of the making of &nbsp;a true king &nbsp;is intresting to watch in nigeria with such a rich cutrue and is no on hiritage and unity
+                                    of cutruct whether the whole or part of pecifically the rights of translate<br><span class="read-more"><a href="#" class="read-more">Read more</a></span></p>
                             </div>
-                            <div class="carditem noteitem writeup">
-                                <div class="timeline noter"></div>
-                                <h1 class="dept previnfo noterinfo">Dr. Aisha Usman&nbsp;<span class="predata notetime">20/20/2018 10:50am</span></h1>
-                                <p>This work is subject to copyright. All rights are reserved by the Publisher, whether the whole or part of pecifically the rights of translation, reprinting<br><br></p>
-                            </div>
-                        </div>
-                    </div>
+                        </div><a href="#" class="view-more">View 10 more<span><i class="icon ion-android-more-vertical thread-icon"></i></span></a></div>
                     <div class="card-group">
                         <div class="card card-secondary maincard halfcard">
                             <div class="card-header grapheader">
@@ -255,15 +278,15 @@
                             <div class="carditem"></div>
                             <div class="carditem">
                                 <h1 class="dept">Malaria Fever<span class="predata">&nbsp; 02/15/2018&nbsp;</span></h1>
-                                <h1 class="dept previnfo">Diagnosed By<span class="predata">&nbsp; Dr. Simon Lesi</span></h1>
+                                <h1 class="dept previnfo sec-info">Diagnosed By<span class="predata">&nbsp; Dr. Simon Lesi</span></h1>
                             </div>
                             <div class="carditem">
                                 <h1 class="dept">Diabetes<span class="predata">&nbsp; 02/15/2018&nbsp;</span></h1>
-                                <h1 class="dept previnfo">Diagnosed By<span class="predata">&nbsp; Prof. Aisha Bello</span></h1>
+                                <h1 class="dept previnfo sec-info">Diagnosed By<span class="predata">&nbsp; Prof. Aisha Bello</span></h1>
                             </div>
                             <div class="carditem">
                                 <h1 class="dept">Malaria Fever<span class="predata">&nbsp; 02/15/2018&nbsp;</span></h1>
-                                <h1 class="dept previnfo">Diagnosed By<span class="predata">&nbsp; Dr. S. A Lesi</span></h1>
+                                <h1 class="dept previnfo sec-info">Diagnosed By<span class="predata">&nbsp; Dr. S. A Lesi</span></h1>
                                 <h1 class="dept previnfo">Date tested<span class="predata">&nbsp; 02/15/2018 10:05am</span></h1>
                             </div>
                         </div>

@@ -20,6 +20,7 @@
 
 .card.card-secondary.historycard.rightcard {
   width:188px;
+  left:16px;
 }
 
 .card-body.topcardbody {
@@ -37,10 +38,13 @@
 .card.card-secondary.historycard.midlecard {
   width:470px;
   min-height:170px;
+  /*right:49px;*/
 }
 
 .card.card-secondary.historycard.leftcard {
   width:200px;
+  height:424px;
+  left:20px;
 }
 
 .card.card-secondary.maincard.halfcard.midright {
@@ -71,13 +75,13 @@
 .card-colums.leftcolumn {
   width:230px;
   position:relative;
-  left:50px;
+  /*left:-44px;*/
 }
 
 .card-colums.rightcolumn {
   width:230px;
   position:relative;
-  right:42px;
+  /*right:-84px;*/
 }
 
 .card.card-secondary.historycard.rightcard.allegies {
@@ -91,7 +95,7 @@
 }
 
 .card.card-secondary.historycard.midlecard.topcard.graphcard {
-  min-height:180px;
+  min-height:170px;
 }
 
 .card.card-secondary.historycard.rightcard.condition {
@@ -122,19 +126,22 @@
 
 .carditem.noteitem.writeup {
   font-size:13px;
-  margin-bottom:0px;
+  margin-bottom:2px;
   padding-right:3%;
+  min-height:49px;
 }
 
 .predata.notetime {
   font-weight:normal;
   position:absolute;
-  left:73%;
+  left:75%;
+  font-size:11px;
 }
 
 .dept.previnfo.noterinfo {
-  font-weight:bold;
-  color:grey;
+  font-weight:500;
+  color:#333333;
+  font-size:13px;
 }
 
 .timeline.noter {
@@ -142,10 +149,13 @@
   background:url(../../assets/img/model.jpg);
   background-size:cover;
   background-position:center;
+  height:29px;
+  width:29px;
 }
 
 .card-body.notecardbody {
   padding-top:10px;
+  /*font-style:italic;*/
 }
 
 .dept.headtitle {
@@ -185,7 +195,7 @@
   position:absolute;
   color:lightgrey;
   bottom:47%;
-  left:14%;
+  left:13%;
   font-size:x-small;
 }
 
@@ -194,7 +204,7 @@
   width:30%;
   border-radius:51px;
   bottom:37%;
-  left:14%;
+  left:13%;
   height:14px;
   font-size:x-small;
 }
@@ -216,9 +226,10 @@
   font-weight:bold;
 }
 
-.detailstimeline {
+.timeline.detailstimeline {
   height:22px;
   width:22px;
+  left:-12px;
 }
 
 .dept.firstheader {
@@ -314,10 +325,6 @@
   height:100%;
 }
 
-.card.card-secondary.historycard.leftcard {
-  height:424px;
-}
-
 p {
   /*margin-top:0;*/
   /*margin-bottom:1rem;*/
@@ -332,7 +339,7 @@ p {
   /*-ms-flex-direction:column;*/
   /*flex-direction:column;*/
   width:90%;
-  margin-bottom:10px;
+  margin-bottom:8px;
 }
 
 .img-fluid {
@@ -341,5 +348,119 @@ p {
   object-fit:cover;
   min-width:100%;
   border-radius:5px;
+}
+
+.note-item {
+  margin-bottom:2px;
+}
+
+.image-link {
+  height:100%;
+  position:relative;
+  display:block;
+}
+
+.card.scan-thumnail {
+  width:50px;
+  height:50px;
+  display:inline-block;
+  margin:0px;
+  border-color:white;
+  margin-bottom:0px;
+  margin-right:0px;
+  margin-left:0px;
+  border-collapse:collapse;
+}
+
+.card.card-secondary.maincard.halfcard.halfcard-right {
+  left:8px;
+  /*border-left:1px solid rgba(0,0,0,.125);*/
+  border-top-left-radius:5px;
+}
+
+.card.card-secondary.maincard {
+  max-height:250px;
+  min-height:250px;
+  margin-bottom:10px;
+}
+
+.card-group > .card {
+  margin-bottom:15px;
+}
+
+.card.card-secondary.historycard.rightcard.conditions {
+  min-height:300px;
+  max-height:300px;
+}
+
+.card.card-secondary.historycard.leftcard.deathinfo {
+  max-height:200px;
+}
+
+.dept.file-name {
+  margin-bottom:5px;
+}
+
+.carditem.scan-items {
+  margin-bottom:0px;
+  padding-top:5px;
+}
+
+.read-more {
+  bottom:2px;
+  position:relative;
+  font-style:italic;
+}
+
+.view-more {
+  font-size:13px;
+  font-style:italic;
+  /*position:absolute;*/
+  float:right;
+  /*margin-right:5px;*/
+  margin-bottom:1px;
+  bottom:7px;
+  position:relative;
+  width:92%;
+  text-align:right;
+  margin:auto;
+}
+
+.icon.ion-android-more-vertical.thread-icon {
+  font-size:22px;
+  color:blue;
+  position:absolute;
+  /*right:2px;*/
+  top:-20%;
+  left:1.3%;
+  background:white;
+  /*height:8px;*/
+  float:left;
+}
+
+.timetaken.dischargedon {
+  font-size:xx-small;
+  font-weight:normal;
+  color:lightgrey;
+  /*width:100%;*/
+}
+
+.row.history-row {
+  margin:auto;
+}
+
+.timeline {
+  height:23px;
+  width:23px;
+  border-radius:50%;
+  background:rgb(248,247,247);
+  left:-6%;
+  position:absolute;
+  top:-3%;
+}
+
+.container.history-container {
+  max-width:957px;
+  margin:auto;
 }
 

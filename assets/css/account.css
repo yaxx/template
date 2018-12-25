@@ -45,22 +45,13 @@
   color:red;
 }
 
-.floter {
-  width:30px;
-  height:30px;
-  border-radius:50%;
-  border:1px solid whitesmoke;
-  position:absolute;
-  bottom:5%;
-  left:80%;
-  cursor:pointer;
-}
-
 .flotericon {
   position:relative;
-  left:7px;
-  font-size:13px;
+  left:10px;
+  font-size:20px;
   color:blue;
+  text-align:center;
+  top:3px;
 }
 
 .flotericon.consulticon {
@@ -147,11 +138,6 @@
   padding-right:25%;
 }
 
-.card.card-secondary.maincard {
-  max-height:400px;
-  min-height:400px;
-}
-
 .headeredit {
   left:98%;
   position:absolute;
@@ -212,52 +198,30 @@
   width:100%;
 }
 
-.card.card-secondary.maincard.halfcard.halfcard-right {
-  left:8px;
-  border-left:1px solid rgba(0,0,0,.125);
-  border-top-left-radius:4px;
-}
-
-.card.card-secondary.historycard.leftcard.deathinfo {
-  max-height:200px;
-}
-
-.card.card-secondary.historycard.rightcard.conditions {
-  min-height:300px;
-  max-height:300px;
-}
-
-.card.scan-thumnail {
-  width:30%;
-  height:50px;
-  display:inline-block;
-  margin:0px;
-  border-color:white;
-  margin-bottom:0px;
-  margin-right:0px;
-  margin-left:0px;
-  border-collapse:collapse;
-}
-
-.carditem.scan-items {
-  margin-bottom:0px;
-  padding-top:5px;
-}
-
-.dept.file-name {
-  margin-bottom:5px;
-}
-
-.image-link {
-  height:100%;
-  position:relative;
-  display:block;
-}
-
 .predata.scan-department {
   text-align:right;
   left:6%;
   position:relative;
   width:43%;
+}
+
+.dept.previnfo.sec-info {
+  color:#808080;
+  font-size:11px;
+}
+
+.card-body.mainbody {
+  margin-left:0px;
+  border:none;
+  padding-top:0px;
+}
+
+.basic-span {
+  color:lightgrey;
+}
+
+.basic-subinfo {
+  position:relative;
+  top:21px;
 }
 
