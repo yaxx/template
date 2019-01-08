@@ -225,3 +225,50 @@
   top:21px;
 }
 
+.card.card-secondary.historycard.leftcard.contacts-card {
+  left:-89px;
+}
+
+.card.card-secondary.historycard.rightcard.medication.profile-card {
+  left:101px;
+}
+
+.patien-name.profile-name {
+  text-align:center;
+  font-size:14px;
+  width:100%;
+  padding-left:0px;
+}
+
+.timeline.lastdoc.priscriber.headerdp.contact-dp {
+  left:5%;
+  position:absolute;
+  height:30px;
+  width:30px;
+  top:25%;
+}
+
+.card-header.grapheader.explore-header {
+  height:26px;
+  padding:0px;
+  position:relative;
+}
+
+.explore-search {
+  position:absolute;
+  padding:0px;
+  width:87%;
+  height:100%;
+  /*text-align:center;*/
+  font-size:13px;
+  padding-left:25px;
+  /*padding-right:3px;*/
+  border:none;
+  /*color:lightgrey;*/
+}
+
+#explore-search:focus {
+  box-shadow:none;
+  border:none;
+}
+

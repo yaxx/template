@@ -470,19 +470,6 @@ body, html {
   background:whitesmoke;
 }
 
-.icon.ion-ios-checkmark-empty {
-  position:absolute;
-  font-size:34px;
-  bottom:-51%;
-  color:lightgreen;
-  left:22%;
-  /*height:10%;*/
-  /*width:10%;*/
-  /*text-align:center;*/
-  /*padding-bottom:20%;*/
-  cursor:pointer;
-}
-
 .material-icons.edit-drug {
   position:absolute;
   bottom:4px;
@@ -534,5 +521,27 @@ body, html {
   text-align:left;
   padding-left:4px;
   color:lightgrey;
+}
+
+.icon.ion-ios-checkmark-empty.edit-drug {
+  position:absolute;
+  font-size:34px;
+  /*bottom:15%;*/
+  color:lightgreen;
+  left:22%;
+  height:10%;
+  width:10%;
+  text-align:center;
+  padding-bottom:20%;
+  cursor:pointer;
+  top:-15px;
+}
+
+.icon.ion-ios-checkmark-empty.paid-icon {
+  position:absolute;
+  /*bottom:6%;*/
+  font-size:34px;
+  color:lightgreen;
+  top:-13px;
 }
 

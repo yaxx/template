@@ -37,8 +37,10 @@
 
 .card.card-secondary.historycard.midlecard {
   width:470px;
-  min-height:170px;
+  min-height:100%;
   /*right:49px;*/
+  position:absolute;
+  margin:auto;
 }
 
 .card.card-secondary.historycard.leftcard {
@@ -304,10 +306,10 @@
 }
 
 .card.card-secondary.historycard.midlecard.chatcard {
-  min-height:500px;
+  min-height:91%;
   margin:auto;
   /*vh:100%;*/
-  position:relative;
+  position:absolute;
 }
 
 .dept.personname {
