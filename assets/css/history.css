@@ -37,9 +37,9 @@
 
 .card.card-secondary.historycard.midlecard {
   width:470px;
-  min-height:100%;
+  min-height:182px;
   /*right:49px;*/
-  position:absolute;
+  /*position:absolute;*/
   margin:auto;
 }
 
@@ -122,8 +122,10 @@
 }
 
 .card-body.midcardbody {
-  height:370px;
+  /*height:370px;*/
   position:relative;
+  margin-left:0px;
+  border-left:0px;
 }
 
 .carditem.noteitem.writeup {
@@ -333,15 +335,15 @@ p {
 }
 
 .card-group {
-  /*display:-webkit-box;*/
+  display:-webkit-box;
   display:-ms-flexbox;
-  /*display:flex;*/
+  display:flex;
   -webkit-box-orient:vertical;
   -webkit-box-direction:normal;
-  /*-ms-flex-direction:column;*/
-  /*flex-direction:column;*/
-  width:90%;
-  margin-bottom:8px;
+  -ms-flex-direction:column;
+  flex-direction:row;
+  width:100%;
+  /*margin-bottom:8px;*/
 }
 
 .img-fluid {
@@ -363,21 +365,24 @@ p {
 }
 
 .card.scan-thumnail {
-  width:50px;
-  height:50px;
+  width:30px;
+  height:30px;
   display:inline-block;
   margin:0px;
   border-color:white;
   margin-bottom:0px;
-  margin-right:0px;
+  margin-right:3px;
   margin-left:0px;
   border-collapse:collapse;
+  display:inline-block;
 }
 
 .card.card-secondary.maincard.halfcard.halfcard-right {
   left:8px;
-  /*border-left:1px solid rgba(0,0,0,.125);*/
+  border-left:1px solid rgba(0,0,0,.125);
   border-top-left-radius:5px;
+  /*padding-left:16px;*/
+  /*padding-right:16px;*/
 }
 
 .card.card-secondary.maincard {
@@ -406,6 +411,11 @@ p {
 .carditem.scan-items {
   margin-bottom:0px;
   padding-top:5px;
+  border-top:1px solid #f8f7f7;
+  /*border-bottom:1px solid #f8f7f7;*/
+  height:40px;
+  width:81%;
+  margin:auto;
 }
 
 .read-more {
@@ -464,5 +474,29 @@ p {
 .container.history-container {
   max-width:957px;
   margin:auto;
+}
+
+.card.card-secondary.historycard.midlecard {
+  margin-bottom:10px;
+}
+
+.icon.ion-ios-download-outline.downloadicon {
+  font-size:22px;
+  position:absolute;
+  cursor:pointer;
+  left:91%;
+  color:lightgrey;
+  bottom:10%;
+}
+
+.filename {
+  font-size:11px;
+  width:57%;
+  bottom:34%;
+  position:absolute;
+  color:grey;
+  margin-bottom:0px;
+  left:29%;
+  font-weight:normal;
 }
 

@@ -272,3 +272,39 @@
   border:none;
 }
 
+.indicator.indicator-online {
+  width:8px;
+  height:8px;
+  top:70%;
+}
+
+.dpImg {
+  .dpImg {  height:100%;
+  width:100%;
+  object-fit:cover;
+  position:absolute;
+  height:100%;
+}
+
+.timeline.lastdoc.priscriber.headerdp img {
+  position:relative;
+  height:100%;
+  width:100%;
+  object-fit:cover;
+  border-radius:50%;
+}
+
+.timeline.condition.drugtimeline.uploadtimeline {
+  top:10px;
+}
+
+.filename {
+  position:absolute;
+  width:50px;
+  margin:auto;
+  left:29%;
+  top:30%;
+  margin:0px;
+  font-size:10px;
+}
+

@@ -405,6 +405,8 @@ body, html {
 .dept.basic-secondary.basic-value {
   text-align:left;
   color:lightgrey;
+  width:100%;
+  text-align:center;
 }
 
 .indicator {
