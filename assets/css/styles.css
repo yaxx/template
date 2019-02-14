@@ -547,3 +547,7 @@ body, html {
   top:-13px;
 }
 
+.material-icons.editicon.continue.blocked-icon {
+  font-size:16px;
+}
+
